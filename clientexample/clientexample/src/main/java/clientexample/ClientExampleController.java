@@ -20,7 +20,7 @@ public class ClientExampleController {
 	UIData uiData = new UIData();
 
 	public String serviceUrl() {
-	    return "http://localhost:8012/employee";
+	    return "http://localhost:8012employee";
 	}
 	
     @RequestMapping(value="/emplist", method=RequestMethod.GET)
